@@ -1,0 +1,85 @@
+/*坤兔同笼
+
+
+#include <stdio.h>
+
+int main() {
+    int heads, legs, rabbits, chickens; 
+    scanf("%d%d", &heads, &legs); 
+
+    
+    chickens = (4 * heads - legs) / 2;
+    rabbits = heads - chickens;
+
+    if (legs % 2 == 1 || rabbits < 0 || chickens < 0) {
+        printf("No solution!");
+        return 0;
+    }
+    printf("chickens = %d; rabbits = %d", chickens, rabbits);
+    return 0;
+}
+
+
+*/
+
+
+
+
+/*分数分级
+
+
+#include <stdio.h>
+
+/int main() {
+    int score;
+    scanf("%d", &score);
+
+   
+    char level;
+    if (score >= 90 && score <= 100) {
+        level = 'A';
+    } else if (score >= 80 && score < 90) {
+        level = 'B';
+    } else if (score >= 70 && score < 80) {
+        level = 'C';
+    } else if (score >= 60 && score < 70) {
+        level = 'D';
+    } else if (score >= 0 && score < 60) {
+        level = 'E';
+    }
+
+    printf("%c", level);
+    return 0;
+}
+
+
+*/
+
+
+
+/*圆柱
+
+
+#include <stdio.h>
+
+#define PI 3.14  
+
+int main() {
+    double r, h;  
+    double c, s, v;  
+
+    if (scanf("%lf %lf", &r, &h) != 2 || r <= 0 || h <= 0) {  
+        printf("此输入不是圆柱体。\n");
+    }
+    else {
+        c = 2 * PI * r;
+        s = PI * r * r;
+        v = s * h;
+        printf("%.2f %.2f %.2f", c, s, v); 
+    }
+
+    return 0;
+}
+
+
+*/
